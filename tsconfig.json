@@ -15,12 +15,17 @@
     "paths": {},
     "outDir": "lib",
     "lib": ["es2020"],
-    "typeRoots": ["./node_modules/@types", "./src/types"],
+    "typeRoots": [
+      "./node_modules/@types",
+      "packages/genshin-kit/src/types",
+      "packages/genshin-gacha-kit/types"
+    ],
     "declaration": true
     // "noImplicitThis": false
   },
   "include": [
-    "src"
+    "packages/genshin-kit/src",
+    "packages/genshin-gacha-kit/src"
     // "tests/**/*.ts"
   ],
   "exclude": ["node_modules", "dist", "**/dist"]
