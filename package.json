@@ -9,6 +9,8 @@
   "author": "Dragon-Fish <dragon-fish@qq.com>",
   "license": "Apache-2.0",
   "scripts": {
-    "clear": "wsl rm -rf packages/**/lib packages/**/dist"
+    "build": "yarn workspaces run build",
+    "lint": "yarn workspaces run lint",
+    "clear": "yarn workspaces run clear"
   }
 }
