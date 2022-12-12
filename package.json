@@ -19,7 +19,7 @@
     "pretty": "eslint --fix ./src"
   },
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^1.2.1",
     "querystring": "^0.2.1",
     "tslib": "^2.2.0"
   },
